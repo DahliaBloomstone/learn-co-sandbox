@@ -1,11 +1,11 @@
 
 lib = File.expand_path("../lib", __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require "NYCMallFinder/version"
+require "Worlds_Wealthiest_People/version"
 
 Gem::Specification.new do |spec|
-  spec.name          = "NYCMallFinder"
-  spec.version       = NYCMallFinder::VERSION
+  spec.name          = "Worlds_Wealthiest_People"
+  spec.version       = WorldsWealthiestPeople::VERSION
   spec.authors       = ["'Dahlia Bloomstone'"]
   spec.email         = ["'dahliabloomstone@gmail.com'"]
 
