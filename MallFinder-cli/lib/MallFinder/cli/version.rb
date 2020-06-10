@@ -1,4 +1,4 @@
-module WealthyPeople
+module MallFinder
   module Cli
     VERSION = "0.1.0"
   end

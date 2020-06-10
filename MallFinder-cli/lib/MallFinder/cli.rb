@@ -1,6 +1,6 @@
-require "WealthyPeople/cli/version"
+require "MallFinder/cli/version"
 
-module WealthyPeople
+module MallFinder
   module Cli
     class Error < StandardError; end
     # Your code goes here...

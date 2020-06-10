@@ -1,11 +1,11 @@
 
 lib = File.expand_path("../lib", __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require "WealthyPeople/cli/version"
+require "MallFinder/cli/version"
 
 Gem::Specification.new do |spec|
-  spec.name          = "WealthyPeople-cli"
-  spec.version       = WealthyPeople::Cli::VERSION
+  spec.name          = "MallFinder-cli"
+  spec.version       = MallFinder::Cli::VERSION
   spec.authors       = ["'Dahlia Bloomstone'"]
   spec.email         = ["'dahliabloomstone@gmail.com'"]
 
